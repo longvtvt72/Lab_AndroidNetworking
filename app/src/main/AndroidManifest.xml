@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab_androidnetworking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".Lab03.bai2.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab_AndroidNetworking"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Lab05.EditProductActivity"></activity>
+        <activity android:name=".Lab05.AddProductActivity" />
+        <activity android:name=".Lab05.AllProductsActivity" >
+
+        </activity>
+        <activity android:name=".Lab08.MainActivityLab08" />
+        <activity android:name=".Lab07.MainActivityLab07" />
+        <activity android:name=".Lab06.MainActivityLab06" />
+        <activity android:name=".Lab05.MainActivityLab05" />
+
+        <activity android:name=".Lab04.Lab04_Bai2Activity" />
+
+        <activity android:name=".Lab03.bai3.Lab03_Bai3Activity" />
+        <activity android:name=".Lab03.bai2.Lab03_Bai2Activity" />
+        <activity android:name=".Lab03.bai1.Lab03_Bai1Activity" />
+        <activity android:name=".Lab03.MainActivityLab03" />
+        <activity android:name=".Lab04.MainActivityLab04" />
+        <activity android:name=".Lab02.Lab02_Bai4Activity" />
+        <activity android:name=".Lab02.Lab02_Bai3Activity" />
+        <activity android:name=".Lab02.Lab02_Bai2Activity" />
+        <activity android:name=".Lab02.MainActivityLab02" />
+        <activity android:name=".Lab02.Lab02_Bai1Activity" />
+        <activity android:name=".Lab01.MainActivityLab01" />
+        <activity android:name=".Lab01.Bai4Activity" />
+        <activity android:name=".Lab01.Bai3Activity" />
+        <activity android:name=".Lab01.Bai2Activity" />
+        <activity android:name=".Lab01.Activity_splashScreen" />
+        <activity android:name=".Lab01.Bai1Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
